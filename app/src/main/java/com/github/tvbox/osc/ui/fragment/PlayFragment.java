@@ -1709,5 +1709,4 @@ public class PlayFragment extends BaseLazyFragment {
    //         callback.onReceiveValue(true);
   //      }
  //   }
-
 }
