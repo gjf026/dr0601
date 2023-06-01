@@ -1232,7 +1232,8 @@ public class PlayFragment extends BaseLazyFragment {
         if (useSystemWebView) {
             mSysWebView = new MyWebView(mContext);
             configWebViewSys(mSysWebView);
-  //      } else {
+        } 
+  //          else {
   //          mXwalkWebView = new MyXWalkView(mContext);
  //           configWebViewX5(mXwalkWebView);
 //        }
