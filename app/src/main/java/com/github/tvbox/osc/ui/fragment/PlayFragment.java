@@ -1596,7 +1596,7 @@ public class PlayFragment extends BaseLazyFragment {
   //          @Override
   //          public boolean onConsoleMessage(XWalkView view, String message, int lineNumber, String sourceId, ConsoleMessageType messageType) {
     //            return false;
-            }
+  //          }
 //
    //         @Override
   //          public boolean onJsAlert(XWalkView view, String url, String message, XWalkJavascriptResult result) {
@@ -1605,22 +1605,22 @@ public class PlayFragment extends BaseLazyFragment {
 
     //        @Override
      //       public boolean onJsConfirm(XWalkView view, String url, String message, XWalkJavascriptResult result) {
-       ////         return true;
-      ////      }
+       //        return true;
+      //     }
 
-     ////       @Override
-      ////      public boolean onJsPrompt(XWalkView view, String url, String message, String defaultValue, XWalkJavascriptResult result) {
-      ////          return true;
-     ////       }
-     ////   });
-   ////     mX5WebClient = new XWalkWebClient(webView);
-   ////     webView.setResourceClient(mX5WebClient);
- ////   }
+     //      @Override
+      //      public boolean onJsPrompt(XWalkView view, String url, String message, String defaultValue, XWalkJavascriptResult result) {
+      //          return true;
+     //      }
+     //   });
+   //    mX5WebClient = new XWalkWebClient(webView);
+   //    webView.setResourceClient(mX5WebClient);
+ //   }
 
   ////  private class XWalkWebClient extends XWalkResourceClient {
-  ////      public XWalkWebClient(XWalkView view) {
-   ////         super(view);
-  ////      }
+  //     public XWalkWebClient(XWalkView view) {
+   //        super(view);
+  //      }
 
    //     @Override
    //     public void onDocumentLoadedInFrame(XWalkView view, long frameId) {
