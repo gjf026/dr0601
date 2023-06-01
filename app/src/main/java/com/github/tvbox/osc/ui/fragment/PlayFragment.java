@@ -1642,21 +1642,21 @@ public class PlayFragment extends BaseLazyFragment {
   //          super.onProgressChanged(view, progressInPercent);
   //      }
 
-    ////    @Override
-    ////    public XWalkWebResourceResponse shouldInterceptLoadRequest(XWalkView view, XWalkWebResourceRequest request) {
-    ////        String url = request.getUrl().toString();
-     ////       LOG.i("shouldInterceptLoadRequest url:" + url);
+    //    @Override
+    //    public XWalkWebResourceResponse shouldInterceptLoadRequest(XWalkView view, XWalkWebResourceRequest request) {
+    //        String url = request.getUrl().toString();
+     //       LOG.i("shouldInterceptLoadRequest url:" + url);
             // suppress favicon requests as we don't display them anywhere
-    ////        if (url.endsWith("/favicon.ico")) {
-     ////           if (url.startsWith("http://127.0.0.1")) {
-     ////               return createXWalkWebResourceResponse("image/x-icon", "UTF-8", null);
-     ////           }
-     ////           return null;
-            }
-////
-     ////       boolean isFilter = VideoParseRuler.isFilter(webUrl, url);
-     ////       if (isFilter) {
-     ////           LOG.i( "shouldInterceptLoadRequest filter:" + url);
+    //        if (url.endsWith("/favicon.ico")) {
+     //           if (url.startsWith("http://127.0.0.1")) {
+     //              return createXWalkWebResourceResponse("image/x-icon", "UTF-8", null);
+     //           }
+     //          return null;
+  //          }
+
+     //       boolean isFilter = VideoParseRuler.isFilter(webUrl, url);
+     //      if (isFilter) {
+     //          LOG.i( "shouldInterceptLoadRequest filter:" + url);
      //           return null;
       //      }
 
